@@ -1,0 +1,16 @@
+.siyuan-2md-panel {
+  position: fixed; right: 24px; bottom: 24px; z-index: 10000;
+  width: min(380px, calc(100vw - 48px)); box-sizing: border-box;
+  padding: 20px; border: 1px solid var(--b3-border-color, #d6d9df);
+  border-radius: 10px; background: var(--b3-theme-background, #fff);
+  color: var(--b3-theme-on-background, #222); box-shadow: 0 8px 32px #0003;
+  font-size: 14px; line-height: 1.6;
+}
+.siyuan-2md-heading { font-weight: 600; font-size: 16px; margin-bottom: 10px; }
+.siyuan-2md-status { overflow-wrap: anywhere; }
+.siyuan-2md-panel progress { width: 100%; height: 8px; margin: 14px 0; accent-color: var(--b3-theme-primary, #3573e6); }
+.siyuan-2md-actions { display: flex; align-items: center; justify-content: flex-end; gap: 20px; margin-top: 12px; }
+.siyuan-2md-actions a { color: var(--b3-theme-primary, #3573e6); cursor: pointer; }
+.siyuan-2md-panel summary { cursor: pointer; }
+.siyuan-2md-panel pre { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 200px; overflow: auto; font: inherit; font-size: 12px; }
+.siyuan-2md-panel [hidden] { display: none !important; }

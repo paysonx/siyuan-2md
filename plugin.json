@@ -1,0 +1,13 @@
+{
+  "name": "siyuan-2md",
+  "author": "payson",
+  "version": "0.1.0",
+  "minAppVersion": "3.8.10",
+  "backends": ["docker", "windows", "linux", "darwin"],
+  "frontends": ["browser-desktop", "desktop"],
+  "disabledInPublish": true,
+  "displayName": { "default": "Markdown ZIP Export", "zh-CN": "Markdown 一键导出" },
+  "description": { "default": "Export one document and its assets as a Markdown ZIP.", "zh-CN": "右键导出单篇 Markdown，自动本地化图片并下载 ZIP。" },
+  "readme": { "default": "README.md", "zh-CN": "README.md" },
+  "keywords": ["markdown", "export", "docker", "导出", "图片本地化"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "siyuan-2md",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Docker/browser Markdown ZIP exporter for SiYuan 3.8.10",
+  "scripts": { "build": "node scripts/build.cjs", "test": "node --test test/*.test.cjs" },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
